@@ -1,0 +1,19 @@
+--- This file is part of LuaDist project
+
+name = "oil"
+version = "0.5"
+
+desc = "An Object Request Broker in The Lua Language"
+author = "Noemi Rodriguez, Roberto Ierusalimschy, Renato Cerqueira"
+license = "Tecgraf Library License/MIT"
+url = "http://www.tecgraf.puc-rio.br/~maia/oil"
+maintainer = "Peter Drahos"
+
+depends = {
+	"lua >= 5.1",
+	"luasocket >= 2.0",
+	"loop == 2.3beta",
+	"luaidl == 1.0.5",
+}
+
+
