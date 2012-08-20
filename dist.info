@@ -10,7 +10,7 @@ url = "http://www.tecgraf.puc-rio.br/~maia/oil"
 maintainer = "Peter Drahos"
 
 depends = {
-	"lua >= 5.1",
+	"lua ~> 5.1",
 	"luasocket >= 2.0",
 	"loop == 2.3beta",
 	"luaidl == 1.0.5",
